@@ -3,7 +3,8 @@ import numpy as np
 class team:
     games = 10
     roster = {}
-    def __init__(self):
+    def __init__(self,location):
+        self.place = location
         self.players = 10
         self.name = "KT"
 
@@ -17,7 +18,7 @@ class team:
 
 def main():
     print("working")
-    teamName = team()
+    teamName = team("NY")
 
     print(teamName.players)
     print(teamName.sched(teamName.players))
@@ -25,6 +26,6 @@ def main():
     teamName.captain("co-captain2", "Stephen")
     print(teamName.roster["co-captain1"])
     print(teamName.roster["co-captain2"])
-
+    print(teamName.place)
 if __name__ == "__main__":
     main()
