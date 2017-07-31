@@ -30,7 +30,6 @@ for iter in range(10000):
 
     # how much did we miss?
     l1_error = y - l1
-    print(l1_error)
 
     # multiply how much we missed by the 
     # slope of the sigmoid at the values in l1
