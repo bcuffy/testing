@@ -13,8 +13,10 @@ ratings = [
     4
 ]
 
-for i, value in enumerate(ratings):
+ratings = [x * 2 for x in ratings]
+
+"""for i, value in enumerate(ratings):
     print("Updating rating {}".format(i))
-    ratings[i] = value * 2
+    ratings[i] = value * 2"""
 
 print(ratings)
