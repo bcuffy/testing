@@ -15,41 +15,36 @@ from collections import Counter
 rcParams['figure.figsize'] = 5, 4
 sb.set_style('whitegrid')
 
-df = pd.read_csv('auto-mpg2.csv')
+df = pd.read_csv('auto-mpg3.csv', header=None, sep=',')
 #df = df.rename(columns={df.columns[0]: 'name'})
 
-df.drop(['name'], 1, inplace=True)
-df.drop(['class'], 1, inplace=True)
-df.drop(['year'], 1, inplace=True)
-
 # create feature, X, and target, y, sets. Format as np array
-feature_data =df.drop(['am'], axis=1)
-
-feature_data =feature_data.ix[:,0:5]
-target_data = df.ix[:,6].values
+df.columns = ["displ","gear","cyl","drv","mpg","hp","am"]
+data = df.ix[:,0:5].values
+target = df.ix[:,6].values
 
 # Create DBSCAN model
-model = DBSCAN(eps=.2, min_samples=19).fit(feature_data)
-outliers_df = pd.DataFrame(feature_data)
-
-print(Counter(model.labels_))
-print(outliers_df[model.labels_==-1])
-
-idf = pd.read_csv(
-    filepath_or_buffer='iris.data.csv',
-    header=None,
-    sep=',')
-
-idf.columns=['Sepal Length','Sepal Width','Petal Length','Petal Width', 'Species']
-data = df.ix[:,0:4].values
-target = df.ix[:,4].values
-
-#min_samples: number of samples to be considered as core point
-model = DBSCAN(eps=0.8, min_samples=19).fit(data)
+model = DBSCAN(eps=.2, min_samples=2).fit(data)
 outliers_df = pd.DataFrame(data)
+print(model.labels_)
+# print(Counter(model.labels_))
+# print(outliers_df[model.labels_==-1])
 
-print(Counter(model.labels_))
-print(outliers_df[model.labels_==-1])
+# idf = pd.read_csv(
+#     filepath_or_buffer='iris.data.csv',
+#     header=None,
+#     sep=',')
+
+# idf.columns=['Sepal Length','Sepal Width','Petal Length','Petal Width', 'Species']
+# data = df.ix[:,0:4].values
+# target = df.ix[:,4].values
+# print(target)
+# #min_samples: number of samples to be considered as core point
+# model = DBSCAN(eps=0.8, min_samples=19).fit(data)
+# outliers_df = pd.DataFrame(data)
+
+# print(Counter(model.labels_))
+# print(outliers_df[model.labels_==-1])
 
 fig = plt.figure()
 ax = fig.add_axes([.1, .1, 1, 1])
@@ -58,8 +53,6 @@ colors = model.labels_
 
 ax = plt.gca()
 ax.axis([0, 10, 0,450])
-
-print(data)
 
 # ax.scatter(feature_data[:,2], feature_data[:,1], c = colors, s=120)
 # ax.set_xlabel("X")
