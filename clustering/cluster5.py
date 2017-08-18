@@ -56,16 +56,16 @@ plt.title("Time Classification")
 relabel = np.choose(clustering.labels_, [0, 1, 2]).astype(np.int64)
 
 plt.subplot(1, 4, 2)
-plt.scatter(x=pdf.Avg_S3,y=pdf.Avg_S1, c=color_theme[clustering.labels_], s=50)
-plt.title("5 v 10")
+plt.scatter(x=pdf.Avg_S3,y=pdf.Avg_S1, c='#FCEFA1', s=50)
+plt.title("E5ft v E10ft")
 
 plt.subplot(1, 4, 3)
 plt.scatter(x=pdf.Avg_S3,y=pdf.Avg_S4, c=color_theme[clustering.labels_], s=50)
-plt.title("5 v 16")
+plt.title("E5ft v E16ft")
 
 plt.subplot(1, 4, 4)
 plt.scatter(x=pdf.Avg_S3,y=pdf.Avg_S5, c=color_theme[clustering.labels_], s=50)
-plt.title("E5 v A5")
+plt.title("E5ft v A5ft")
 
 plt.show()
 

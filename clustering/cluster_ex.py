@@ -40,7 +40,7 @@ def kmeans(k, epsilon=0, distance='euclidian'):
         dist_method = euclidian
     
     #load Data
-    df = pd.read_csv("2015_June-Oct_Poles (A_C_E)_15min_imputed.csv")
+    df = pd.read_csv("2015_June_Sensor_Test.csv")
     dataset = df.as_matrix()
 
     # dataset = dataset[:, 0:dataset.shape[1] - 1]
@@ -99,7 +99,7 @@ def kmeans(k, epsilon=0, distance='euclidian'):
 
 def execute():
     #load dataset
-    df = pd.read_csv("2015_June-Oct_Poles (A_C_E)_15min_imputed.csv")
+    df = pd.read_csv("2015_June_Sensor_Test.csv")
     dataset = df.as_matrix()
     #train the model on the data
 

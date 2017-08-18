@@ -1,0 +1,235 @@
+year,name,displ,gear,cyl,drv,mpg,class,am,hp
+1999,audi a4,1.8,5,4,0,23.5,compact,0,184
+1999,audi a4,1.8,5,4,0,25,compact,0,213
+2008,audi a4,2,6,4,0,25.5,compact,0,182
+2008,audi a4,2,5,4,0,25.5,compact,0,246
+1999,audi a4,2.8,5,6,0,21,compact,0,177
+1999,audi a4,2.8,5,6,0,22,compact,0,383
+2008,audi a4,3.1,5,6,0,22.5,compact,0,332
+1999,audi a4 quattro,1.8,5,4,2,22,compact,0,304
+1999,audi a4 quattro,1.8,5,4,2,20.5,compact,0,263
+2008,audi a4 quattro,2,6,4,2,24,compact,0,133
+2008,audi a4 quattro,2,6,4,2,23,compact,0,185
+1999,audi a4 quattro,2.8,5,6,2,20,compact,0,317
+1999,audi a4 quattro,2.8,5,6,2,21,compact,0,250
+2008,audi a4 quattro,3.1,6,6,2,21,compact,0,301
+2008,audi a4 quattro,3.1,6,6,2,20,compact,0,253
+1999,audi a6 quattro,2.8,5,6,2,19.5,midsize,0,258
+2008,audi a6 quattro,3.1,6,6,2,21,midsize,0,196
+2008,audi a6 quattro,4.2,6,8,2,19.5,midsize,0,202
+2008,chevrolet c1500 suburban 2wd,5.3,4,8,1,17,suv,0,383
+2008,chevrolet c1500 suburban 2wd,5.3,4,8,1,13,suv,0,303
+2008,chevrolet c1500 suburban 2wd,5.3,4,8,1,17,suv,0,340
+1999,chevrolet c1500 suburban 2wd,5.7,4,8,1,15,suv,0,212
+2008,chevrolet c1500 suburban 2wd,6,4,8,1,14.5,suv,0,272
+1999,chevrolet corvette,5.7,6,8,1,21,2seater,1,274
+1999,chevrolet corvette,5.7,4,8,1,19,2seater,1,221
+2008,chevrolet corvette,6.2,6,8,1,21,2seater,1,345
+2008,chevrolet corvette,6.2,6,8,1,20,2seater,1,396
+2008,chevrolet corvette,7,6,8,1,19.5,2seater,1,273
+2008,chevrolet k1500 tahoe 4wd,5.3,4,8,2,16.5,suv,0,260
+2008,chevrolet k1500 tahoe 4wd,5.3,4,8,2,12.5,suv,0,355
+1999,chevrolet k1500 tahoe 4wd,5.7,4,8,2,13,suv,0,276
+1999,chevrolet k1500 tahoe 4wd,6.5,4,8,2,15.5,suv,0,226
+1999,chevrolet malibu,2.4,4,4,0,23,midsize,0,280
+2008,chevrolet malibu,2.4,4,4,0,26,midsize,0,344
+1999,chevrolet malibu,3.1,4,6,0,22,midsize,0,376
+2008,chevrolet malibu,3.5,4,6,0,23.5,midsize,0,214
+2008,chevrolet malibu,3.6,6,6,0,21.5,midsize,0,230
+1999,dodge caravan 2wd,2.4,3,4,0,21,minivan,0,392
+1999,dodge caravan 2wd,3,4,6,0,20.5,minivan,0,309
+1999,dodge caravan 2wd,3.3,4,6,0,19,minivan,0,332
+1999,dodge caravan 2wd,3.3,4,6,0,19,minivan,0,259
+2008,dodge caravan 2wd,3.3,4,6,0,20.5,minivan,0,203
+2008,dodge caravan 2wd,3.3,4,6,0,20.5,minivan,0,240
+2008,dodge caravan 2wd,3.3,4,6,0,14,minivan,0,190
+1999,dodge caravan 2wd,3.8,4,6,0,18.5,minivan,0,137
+1999,dodge caravan 2wd,3.8,4,6,0,18,minivan,0,154
+2008,dodge caravan 2wd,3.8,6,6,0,19.5,minivan,0,183
+2008,dodge caravan 2wd,4,6,6,0,19.5,minivan,0,305
+2008,dodge dakota pickup 4wd,3.7,6,6,2,17,pickup,0,135
+2008,dodge dakota pickup 4wd,3.7,4,6,2,16,pickup,0,231
+1999,dodge dakota pickup 4wd,3.9,4,6,2,15,pickup,0,225
+1999,dodge dakota pickup 4wd,3.9,5,6,2,15.5,pickup,0,209
+2008,dodge dakota pickup 4wd,4.7,5,8,2,16.5,pickup,0,187
+2008,dodge dakota pickup 4wd,4.7,5,8,2,16.5,pickup,0,227
+2008,dodge dakota pickup 4wd,4.7,5,8,2,10.5,pickup,0,200
+1999,dodge dakota pickup 4wd,5.2,5,8,2,14,pickup,0,317
+1999,dodge dakota pickup 4wd,5.2,4,8,2,13,pickup,0,176
+1999,dodge durango 4wd,3.9,4,6,2,15,suv,0,292
+2008,dodge durango 4wd,4.7,5,8,2,15,suv,0,397
+2008,dodge durango 4wd,4.7,5,8,2,10.5,suv,0,153
+2008,dodge durango 4wd,4.7,5,8,2,15,suv,0,374
+1999,dodge durango 4wd,5.2,4,8,2,13.5,suv,0,179
+2008,dodge durango 4wd,5.7,5,8,2,15.5,suv,0,328
+1999,dodge durango 4wd,5.9,4,8,2,13,suv,0,376
+2008,dodge ram 1500 pickup 4wd,4.7,6,8,2,14,pickup,0,395
+2008,dodge ram 1500 pickup 4wd,4.7,5,8,2,10.5,pickup,0,348
+2008,dodge ram 1500 pickup 4wd,4.7,5,8,2,15,pickup,0,319
+2008,dodge ram 1500 pickup 4wd,4.7,5,8,2,15,pickup,0,276
+2008,dodge ram 1500 pickup 4wd,4.7,6,8,2,14,pickup,0,166
+2008,dodge ram 1500 pickup 4wd,4.7,6,8,2,10.5,pickup,0,215
+1999,dodge ram 1500 pickup 4wd,5.2,4,8,2,13,pickup,0,206
+1999,dodge ram 1500 pickup 4wd,5.2,5,8,2,13.5,pickup,0,220
+2008,dodge ram 1500 pickup 4wd,5.7,5,8,2,15,pickup,0,200
+1999,dodge ram 1500 pickup 4wd,5.9,4,8,2,13,pickup,0,372
+1999,ford expedition 2wd,4.6,4,8,1,14,suv,0,158
+1999,ford expedition 2wd,5.4,4,8,1,14,suv,0,352
+2008,ford expedition 2wd,5.4,6,8,1,15,suv,0,214
+1999,ford explorer 4wd,4,5,6,2,15.5,suv,0,315
+1999,ford explorer 4wd,4,5,6,2,17,suv,0,321
+1999,ford explorer 4wd,4,5,6,2,15.5,suv,0,184
+2008,ford explorer 4wd,4,5,6,2,16,suv,0,285
+2008,ford explorer 4wd,4.6,6,8,2,16,suv,0,185
+1999,ford explorer 4wd,5,4,8,2,15,suv,0,211
+1999,ford f150 pickup 4wd,4.2,4,6,2,15.5,pickup,0,349
+1999,ford f150 pickup 4wd,4.2,5,6,2,15.5,pickup,0,389
+1999,ford f150 pickup 4wd,4.6,5,8,2,14.5,pickup,0,378
+1999,ford f150 pickup 4wd,4.6,4,8,2,14.5,pickup,0,159
+2008,ford f150 pickup 4wd,4.6,4,8,2,15,pickup,0,214
+1999,ford f150 pickup 4wd,5.4,4,8,2,13,pickup,0,178
+2008,ford f150 pickup 4wd,5.4,4,8,2,15,pickup,0,386
+1999,ford mustang,3.8,5,6,1,22,subcompact,1,249
+1999,ford mustang,3.8,4,6,1,21.5,subcompact,1,213
+2008,ford mustang,4,5,6,1,21.5,subcompact,1,150
+2008,ford mustang,4,5,6,1,20,subcompact,1,202
+1999,ford mustang,4.6,4,8,1,18,subcompact,1,371
+1999,ford mustang,4.6,5,8,1,18.5,subcompact,1,281
+2008,ford mustang,4.6,5,8,1,19,subcompact,1,148
+2008,ford mustang,4.6,5,8,1,18.5,subcompact,1,175
+2008,ford mustang,5.4,6,8,1,17,subcompact,1,341
+1999,honda civic,1.6,5,4,0,30.5,subcompact,1,251
+1999,honda civic,1.6,4,4,0,28,subcompact,1,325
+1999,honda civic,1.6,5,4,0,28.5,subcompact,1,336
+1999,honda civic,1.6,5,4,0,26,subcompact,1,238
+1999,honda civic,1.6,4,4,0,28,subcompact,1,153
+2008,honda civic,1.8,5,4,0,30,subcompact,1,373
+2008,honda civic,1.8,5,4,0,30.5,subcompact,1,170
+2008,honda civic,1.8,5,4,0,30,subcompact,1,364
+2008,honda civic,2,6,4,0,25,subcompact,1,282
+1999,hyundai sonata,2.4,4,4,0,22,midsize,0,168
+1999,hyundai sonata,2.4,5,4,0,22.5,midsize,0,137
+2008,hyundai sonata,2.4,4,4,0,25.5,midsize,0,133
+2008,hyundai sonata,2.4,5,4,0,26,midsize,0,172
+1999,hyundai sonata,2.5,4,6,0,22,midsize,0,138
+1999,hyundai sonata,2.5,5,6,0,22,midsize,0,245
+2008,hyundai sonata,3.3,5,6,0,23.5,midsize,0,171
+1999,hyundai tiburon,2,4,4,0,22.5,subcompact,0,350
+1999,hyundai tiburon,2,5,4,0,24,subcompact,0,308
+2008,hyundai tiburon,2,5,4,0,24,subcompact,0,221
+2008,hyundai tiburon,2,4,4,0,23.5,subcompact,0,251
+2008,hyundai tiburon,2.7,4,6,0,20.5,subcompact,0,321
+2008,hyundai tiburon,2.7,6,6,0,20,subcompact,0,192
+2008,hyundai tiburon,2.7,5,6,0,20.5,subcompact,0,220
+2008,jeep grand cherokee 4wd,3,5,6,2,19.5,suv,0,299
+2008,jeep grand cherokee 4wd,3.7,5,6,2,17,suv,0,319
+1999,jeep grand cherokee 4wd,4,4,6,2,17.5,suv,0,386
+1999,jeep grand cherokee 4wd,4.7,4,8,2,15.5,suv,0,249
+2008,jeep grand cherokee 4wd,4.7,5,8,2,10.5,suv,0,205
+2008,jeep grand cherokee 4wd,4.7,5,8,2,16.5,suv,0,326
+2008,jeep grand cherokee 4wd,5.7,5,8,2,15.5,suv,0,144
+2008,jeep grand cherokee 4wd,6.1,5,8,2,12.5,suv,0,395
+1999,land rover range rover,4,4,8,2,13,suv,0,219
+2008,land rover range rover,4.2,6,8,2,15,suv,0,389
+2008,land rover range rover,4.4,6,8,2,15,suv,0,222
+1999,land rover range rover,4.6,4,8,2,13,suv,0,221
+1999,lincoln navigator 2wd,5.4,4,8,1,14,suv,0,269
+1999,lincoln navigator 2wd,5.4,4,8,1,13.5,suv,0,136
+2008,lincoln navigator 2wd,5.4,6,8,1,15,suv,0,195
+1999,mercury mountaineer 4wd,4,5,6,2,15.5,suv,0,337
+2008,mercury mountaineer 4wd,4,5,6,2,16,suv,0,262
+2008,mercury mountaineer 4wd,4.6,6,8,2,16,suv,0,342
+1999,mercury mountaineer 4wd,5,4,8,2,15,suv,0,269
+1999,nissan altima,2.4,5,4,0,25,compact,0,281
+1999,nissan altima,2.4,4,4,0,23,compact,0,132
+2008,nissan altima,2.5,4,4,0,27,midsize,0,333
+2008,nissan altima,2.5,6,4,0,27.5,midsize,0,178
+2008,nissan altima,3.5,6,6,0,23,midsize,0,229
+2008,nissan altima,3.5,4,6,0,22.5,midsize,0,172
+1999,nissan maxima,3,4,6,0,22,midsize,0,134
+1999,nissan maxima,3,5,6,0,22,midsize,0,311
+2008,nissan maxima,3.5,4,6,0,22,midsize,0,149
+1999,nissan pathfinder 4wd,3.3,4,6,2,15.5,suv,0,277
+1999,nissan pathfinder 4wd,3.3,5,6,2,16,suv,0,283
+2008,nissan pathfinder 4wd,4,5,6,2,17,suv,0,134
+2008,nissan pathfinder 4wd,5.6,5,8,2,15,suv,0,353
+1999,pontiac grand prix,3.1,4,6,0,22,midsize,0,357
+1999,pontiac grand prix,3.8,4,6,0,21,midsize,0,172
+1999,pontiac grand prix,3.8,4,6,0,22,midsize,0,184
+2008,pontiac grand prix,3.8,4,6,0,23,midsize,0,277
+2008,pontiac grand prix,5.3,4,8,0,20.5,midsize,0,214
+1999,subaru forester awd,2.5,5,4,2,21.5,suv,0,179
+1999,subaru forester awd,2.5,4,4,2,21,suv,0,220
+2008,subaru forester awd,2.5,5,4,2,23.5,suv,0,215
+2008,subaru forester awd,2.5,5,4,2,22,suv,0,271
+2008,subaru forester awd,2.5,4,4,2,23,suv,0,255
+2008,subaru forester awd,2.5,4,4,2,20.5,suv,0,318
+1999,subaru impreza awd,2.2,4,4,2,23.5,subcompact,0,322
+1999,subaru impreza awd,2.2,5,4,2,22.5,subcompact,0,336
+1999,subaru impreza awd,2.5,5,4,2,22.5,subcompact,0,168
+1999,subaru impreza awd,2.5,4,4,2,22.5,subcompact,0,299
+2008,subaru impreza awd,2.5,4,4,2,22.5,compact,0,374
+2008,subaru impreza awd,2.5,4,4,2,23.5,compact,0,232
+2008,subaru impreza awd,2.5,5,4,2,22,compact,0,346
+2008,subaru impreza awd,2.5,5,4,2,23.5,compact,0,286
+1999,toyota 4runner 4wd,2.7,5,4,2,17.5,suv,0,388
+1999,toyota 4runner 4wd,2.7,4,4,2,18,suv,0,210
+1999,toyota 4runner 4wd,3.4,4,6,2,17,suv,0,267
+1999,toyota 4runner 4wd,3.4,5,6,2,16,suv,0,244
+2008,toyota 4runner 4wd,4,5,6,2,18,suv,0,188
+2008,toyota 4runner 4wd,4.7,5,8,2,15.5,suv,0,327
+1999,toyota camry,2.2,5,4,0,25,midsize,0,275
+1999,toyota camry,2.2,4,4,0,24,midsize,0,286
+2008,toyota camry,2.4,5,4,0,26,midsize,0,328
+2008,toyota camry,2.4,5,4,0,26,midsize,0,211
+1999,toyota camry,3,4,6,0,22,midsize,0,246
+1999,toyota camry,3,5,6,0,22,midsize,0,264
+2008,toyota camry,3.5,6,6,0,23.5,midsize,0,275
+1999,toyota camry solara,2.2,4,4,0,24,compact,0,387
+1999,toyota camry solara,2.2,5,4,0,25,compact,0,305
+2008,toyota camry solara,2.4,5,4,0,26,compact,0,305
+2008,toyota camry solara,2.4,5,4,0,26.5,compact,0,279
+1999,toyota camry solara,3,4,6,0,22,compact,0,232
+1999,toyota camry solara,3,5,6,0,22,compact,0,195
+2008,toyota camry solara,3.3,5,6,0,22.5,compact,0,352
+1999,toyota corolla,1.8,3,4,0,27,compact,1,279
+1999,toyota corolla,1.8,4,4,0,28.5,compact,1,393
+1999,toyota corolla,1.8,5,4,0,30.5,compact,0,206
+2008,toyota corolla,1.8,5,4,0,32.5,compact,0,270
+2008,toyota corolla,1.8,4,4,0,30.5,compact,0,133
+1999,toyota land cruiser wagon 4wd,4.7,4,8,2,13,suv,0,329
+2008,toyota land cruiser wagon 4wd,5.7,6,8,2,15.5,suv,0,137
+1999,toyota toyota tacoma 4wd,2.7,5,4,2,17.5,pickup,0,382
+1999,toyota toyota tacoma 4wd,2.7,4,4,2,18,pickup,0,199
+2008,toyota toyota tacoma 4wd,2.7,5,4,2,19.5,pickup,0,203
+1999,toyota toyota tacoma 4wd,3.4,5,6,2,16,pickup,0,365
+1999,toyota toyota tacoma 4wd,3.4,4,6,2,17,pickup,0,276
+2008,toyota toyota tacoma 4wd,4,6,6,2,16.5,pickup,0,340
+2008,toyota toyota tacoma 4wd,4,5,6,2,18,pickup,1,323
+1999,volkswagen gti,2,5,4,0,25,compact,1,171
+1999,volkswagen gti,2,4,4,0,22.5,compact,1,243
+2008,volkswagen gti,2,6,4,0,25,compact,1,380
+2008,volkswagen gti,2,6,4,0,25.5,compact,1,386
+1999,volkswagen gti,2.8,5,6,0,20.5,compact,1,226
+1999,volkswagen jetta,1.9,5,4,0,38.5,compact,0,371
+1999,volkswagen jetta,2,5,4,0,25,compact,0,359
+1999,volkswagen jetta,2,4,4,0,22.5,compact,0,237
+2008,volkswagen jetta,2,6,4,0,25.5,compact,0,301
+2008,volkswagen jetta,2,6,4,0,25,compact,0,172
+2008,volkswagen jetta,2.5,6,5,0,25,compact,0,297
+2008,volkswagen jetta,2.5,5,5,0,25,compact,0,211
+1999,volkswagen jetta,2.8,4,6,0,19.5,compact,0,302
+1999,volkswagen jetta,2.8,5,6,0,20.5,compact,0,316
+1999,volkswagen new beetle,1.9,5,4,0,39.5,subcompact,0,212
+1999,volkswagen new beetle,1.9,4,4,0,35,subcompact,0,131
+1999,volkswagen new beetle,2,5,4,0,25,subcompact,0,290
+1999,volkswagen new beetle,2,4,4,0,22.5,subcompact,0,276
+2008,volkswagen new beetle,2.5,5,5,0,24,subcompact,0,290
+2008,volkswagen new beetle,2.5,6,5,0,24.5,subcompact,0,294
+1999,volkswagen passat,1.8,5,4,0,25,midsize,0,357
+1999,volkswagen passat,1.8,5,4,0,23.5,midsize,0,133
+2008,volkswagen passat,2,6,4,0,23.5,midsize,0,172
+2008,volkswagen passat,2,6,4,0,25,midsize,0,322
+1999,volkswagen passat,2.8,5,6,0,21,midsize,0,250
+1999,volkswagen passat,2.8,5,6,0,22,midsize,0,359
+2008,volkswagen passat,3.6,6,6,0,21.5,midsize,0,305
