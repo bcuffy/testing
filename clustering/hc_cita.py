@@ -48,15 +48,11 @@ def map_text_to_index(output_list):
     return np.array(l), len(target_set)
 
 
-df = pd.read_csv(
-    filepath_or_buffer='iris.data.csv',
-    header=None,
-    sep=',')
-
-df.columns=['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width', 'Species']
+cita_df = pd.read_csv('cita.csv')
+feature_df = cita_df.copy(deep=True)
 
 #get column feature vectors for model, [mpg, disp, hp, wt]
-X = df.ix[:,0:4].values
+X = cita_df.ix[:,0:2].values
 
 #use ward linkage method to cluster data
 color_theme = ['darkgray', 'lightsalmon', 'powderblue', 'powderblue', '#A5C969', '#584371']
@@ -68,18 +64,19 @@ dendrogram(Z, truncate_mode='lastp', p=12, leaf_rotation=0., leaf_font_size=15, 
 
 
 # Dendrogram titling
-plt.title("truncated hierarchical dendogram")
-plt.xlabel('Cluster Size')
-plt.ylabel('Distance')
+# plt.title("truncated hierarchical dendogram")
+# plt.xlabel('Cluster Size')
+# plt.ylabel('Distance')
 
-# draw line @ y value that approximates the number of desired clusters
-plt.axhline(y=10)
-plt.show()
+# # draw line @ y value that approximates the number of desired clusters
+# plt.axhline(y=10)
+# plt.show()
 
 
 # create list of target values and set of target values for for cluster assignments
-y = df.ix[:,4].values
+y = cita_df.ix[:,2].values
 y, k = map_text_to_index(y)
+print(k)
 
 # affinity functions (distance metrics): 'manhattan', 'euclidean', 'cosine'
 # linkage (linkage parameters): 'ward', 'complete', 'average'
@@ -92,13 +89,14 @@ print(y)
 #relabel groups to match indeices to target set.
 #This process need to occur if the algorithm is clustering the data correctly
 #but mislabeling the cluster index
-relabel = np.choose(Hclustering.labels_, [1,0,2]).astype(np.int64)
-Hclustering.labels_ = relabel
+
+# relabel = np.choose(Hclustering.labels_, [1,0,2]).astype(np.int64)
+# Hclustering.labels_ = relabel
 
 #score accuracy of predictions against actual values in y
 print(sm.accuracy_score(y, Hclustering.labels_))
 
-color_theme = np.array(['darkgray', 'lightsalmon', 'powderblue', 'powderblue', '#A5C969', '#584371'])
+color_theme = np.array(['darkgray', 'lightsalmon', 'powderblue', "#75968f", "#a5bab7", "#c9d9d3", "#e2e2e2", "#dfccce", "#ddb7b1", "#cc7878", "#933b41", "#550b1d"])
 
 # Build figures to plot
 def plot(df, dfx, dfy, df_label, color_theme):
@@ -124,15 +122,13 @@ def plot(df, dfx, dfy, df_label, color_theme):
     # Define HoverTool
     p.select_one(HoverTool).tooltips = [
         ('W', '@Sepal_Width'),
-        ('L', '@Sepal_Length'),
-        ('P', '@Petal_Width'),
-        ('H', '@Petal_Length')
+        ('L', '@Sepal_Length')
     ]
 
     return p
 
 
-p = row(plot(df, 'Petal_Length', 'Petal_Width', y, color_theme), plot(df, 'Petal_Length', 'Petal_Width', relabel, color_theme))
+p = row(plot(cita_df, 'Temp', 'Sensor', y, color_theme), plot(cita_df, 'Temp', 'Sensor', Hclustering.labels_, color_theme))
 show(p)
 
 # score precision of each cluster
