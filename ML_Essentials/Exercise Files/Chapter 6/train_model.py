@@ -4,6 +4,8 @@ from sklearn import ensemble
 from sklearn.metrics import mean_absolute_error
 from sklearn.externals import joblib
 
+import matplotlib.pyplot as plt
+
 # Load the data set
 df = pd.read_csv("ml_house_data_set.csv")
 
@@ -48,3 +50,7 @@ print("Training Set Mean Absolute Error: %.4f" % mse)
 mse = mean_absolute_error(y_test, model.predict(X_test))
 print("Test Set Mean Absolute Error: %.4f" % mse)
 
+plt.plot(df)
+#plt.plot(trainPredictPlot)
+#plt.plot(testPredictPlot)
+plt.show()
