@@ -35,13 +35,25 @@ fig = plt.figure()
 #ax = fig.add_axes([.1, .1, 1, 1])
 
 colors = model.labels_
-color_theme = np.array(['darkgray', 'lightsalmon', 'powderblue'])
+color_theme = np.array(['darkgray', 'lightsalmon', 'blue'])
 
 ax = plt.gca()
 ax.axis([0, 7, 0,3])
 
-ax.scatter(data[:,2], data[:,3], c = color_theme[colors], edgecolors='black', linewidths=.5, alpha=.9, s=50)
-ax.set_xlabel("X")
-ax.set_ylabel("Y")
+plt.subplot(1,2,1)
+plt.xlim([0,7])
+plt.ylim([0,3])
+plt.scatter(data[:,2], data[:,3], c = 'b', edgecolors=None, linewidths=.5, alpha=.9, s=50)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title("Iris Dataset: Petal Length v. Petal Length")
+
+plt.subplot(1,2,2)
+plt.xlim([0,7])
+plt.ylim([0,3])
+plt.scatter(data[:,2], data[:,3], c = color_theme[colors], edgecolors=None, linewidths=.5, alpha=.9, s=50)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
 plt.title("DBScan for outlier detection")
+
 plt.show()

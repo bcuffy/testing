@@ -58,6 +58,10 @@ X = cita_df.ix[:,0:2].values
 color_theme = ['darkgray', 'lightsalmon', 'powderblue', 'powderblue', '#A5C969', '#584371']
 Z = linkage(X,'ward')
 
+c, coph_dists = cophenet(Z, pdist(X))
+
+print(c)
+
 #draw dendrogram
 #use dendrogram to deterimne how many clusters to make
 dendrogram(Z, truncate_mode='lastp', p=12, leaf_rotation=0., leaf_font_size=15, show_contracted=True)

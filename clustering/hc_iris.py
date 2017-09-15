@@ -73,7 +73,7 @@ plt.xlabel('Cluster Size')
 plt.ylabel('Distance')
 
 # draw line @ y value that approximates the number of desired clusters
-plt.axhline(y=10)
+# plt.axhline(y=10)
 plt.show()
 
 
@@ -132,8 +132,35 @@ def plot(df, dfx, dfy, df_label, color_theme):
     return p
 
 
-p = row(plot(df, 'Petal_Length', 'Petal_Width', y, color_theme), plot(df, 'Petal_Length', 'Petal_Width', relabel, color_theme))
-show(p)
+# p = row(plot(df, 'Petal_Length', 'Petal_Width', y, color_theme), plot(df, 'Petal_Length', 'Petal_Width', relabel, color_theme))
+# show(p)
+
+fig = plt.figure()
+#ax = fig.add_axes([.1, .1, 1, 1])
+
+colors = Hclustering.labels_
+color_theme = np.array(['darkgray', 'lightsalmon', 'blue'])
+
+ax = plt.gca()
+ax.axis([0, 7, 0,3])
+
+plt.subplot(1,2,1)
+plt.xlim([0,7])
+plt.ylim([0,3])
+plt.scatter(df.Petal_Length, df.Petal_Width, c = 'b', edgecolors=None, linewidths=.5, alpha=.9, s=50)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title("Iris Dataset: Petal Length v. Petal Length")
+
+plt.subplot(1,2,2)
+plt.xlim([0,7])
+plt.ylim([0,3])
+plt.scatter(df.Petal_Length, df.Petal_Width, c = color_theme[colors], edgecolors=None, linewidths=.5, alpha=.9, s=50)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title("Hierarchical(Agglomerative) Clustering")
+
+plt.show()
 
 # score precision of each cluster
 print(classification_report(y, Hclustering.labels_))

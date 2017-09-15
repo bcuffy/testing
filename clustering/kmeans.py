@@ -37,22 +37,28 @@ y.columns = ['Target']
 ax = plt.gca()
 ax.axis([0, 7, 0,3])
 
-color_theme = np.array(['darkgray', 'lightsalmon', 'powderblue'])
+color_theme = np.array(['darkgray', 'lightsalmon', 'blue'])
 
 plt.subplot(1,2,1)
-plt.scatter(x=iris_df.Petal_Length, y =iris_df.Petal_Width, c=color_theme[iris.target], s=50, linewidths=.55, edgecolors='gray', facecolor=None, hatch=None)
+plt.scatter(x=iris_df.Petal_Length, y =iris_df.Petal_Width, c='b', s=50, linewidths=.55, edgecolors=None, facecolor=None, hatch=None)
 plt.xlim([0,8])
 plt.ylim([0,3])
-plt.title('Ground Truth Classification')
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title("Iris Dataset: Petal Length v. Petal Length")
 
 relabel = np.choose(clustering.labels_, [2,0,1]).astype(np.int64)
 
 plt.subplot(1,2,2)
 plt.xlim([0,8])
 plt.ylim([0,3])
-plt.scatter(x=iris_df.Petal_Length, y =iris_df.Petal_Width, c=color_theme[clustering.labels_], s=50, edgecolors='gray', linewidths=1, facecolor=None, hatch=None)
-plt.title('KMeans classification')
+plt.scatter(x=iris_df.Petal_Length, y =iris_df.Petal_Width, c=color_theme[relabel], s=50, edgecolors=None, linewidths=1, facecolor=None, hatch=None)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title('KMeans Clustering')
 
 plt.show()
+
+
 
 print(classification_report(y, relabel))
